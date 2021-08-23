@@ -1,0 +1,132 @@
+div.div1{
+    height: 30px;
+    /* width: 100%; */
+    padding-top: 3px;
+    background-image: linear-gradient(to right, red 10%, green 30%, yellow);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.div2{
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: rgb(95, 204, 207);
+    height: 80px;
+    width: 500px;
+    padding-left: 380px;
+    margin-left: 350px;
+    font-size: 17px;
+
+}
+div.div3{
+    border: 5px solid darkgreen;
+    border-radius: 10px;
+    background-color: rgb(98, 214, 160);
+    height: 210px;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.div4{
+    height: 100px;
+    width: 400px;
+    border: 3px solid darkgreen;
+    border-radius: 15px;
+    background-color: #10EAF0;
+    font-weight: 800;
+    float: left;
+}
+.hey4{
+    margin:0px 40px 40px  ;
+}
+
+.div5{
+    height: 30px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, red, yellow,red);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline red;
+
+}
+.div6{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    padding: 30px;
+    border: 3px solid green;
+    background-image: radial-gradient(blue 30%,#1e90ff,#2ed573);
+}
+.div7{
+    height: 140px;
+    width: 190px;
+    text-align: center;
+    color: rgb(201, 15, 15);
+    border: 3px solid red;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 40px;
+    background-color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
+}
+div.div8{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 30px;
+    /* padding: 0px; */
+    border:1px solid gray;
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 60px 100px 240px 30px;
+    grid-template-columns: repeat(3,1fr) 150px;
+    grid-gap: 20px;
+    grid-auto-columns: auto;
+    text-align: start;
+    color: white;
+
+}
+.div9{
+    background-color: #ff4757;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.div10{
+    background-color: #2ed573;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.div11{
+    background-color: #1e90ff;
+    font-size: 30px;
+
+}
+.div12{
+    background-color: #5352ed;
+}
+.div13{
+    background-color: #2f3542;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    font-size: 20px;
+}
+.div14{
+    background-color: #ffa502;
+    grid-column: 1/4;
+}
+.div15{
+    background-color: #00d2d3;
+    grid-column: 1/-1;
+    color: black;
+    text-align: center;
+
+}
